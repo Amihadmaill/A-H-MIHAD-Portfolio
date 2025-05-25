@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">A H MIHAD</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Anwar Hakim Mihad</span></h1>
+                <h2>Web Developer</h2>
+                <p>  A Computer Science student at Dhaka University. Passionate about coding, designing and problem-solving, I'm on a continuous journey of learning and growing in the tech field.</p>
+                <a href="#contact" class="btn">Hire Me</a>
+                <a href="#portfolio" class="btn secondary">View Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="mihad.jpg" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="mihad-1.jpg" alt="About Me">
+                </div>
+                <div class="about-text">
+                    <h3>I'm a Professional Web Developer</h3>
+                    <p>Hi, I'm <b>A H MIHAD</b>, a Computer Science graduate from Iqra University, based in Lahore, Pakistan.  
+                    Passionate about coding and problem-solving, I have experience in C#, .NET WinForms, and web technologies like HTML, CSS, and JavaScript.  
+                    My notable projects include an Employee Management System, a hotel website, and a Global Education App designed to assist students with study opportunities worldwide.  
+                    Outside of work, I enjoy exploring tech trends, writing blogs about programming, and sipping tea. </p>
+                    <div class="skills">
+                        <h4>My Skills</h4>
+                        <div class="skill-item">
+                            <p>HTML/CSS <span>95%</span></p>
+                            <div class="skill-bar">
+                                <div class="skill-level html-css"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>JavaScript <span>85%</span></p>
+                            <div class="skill-bar">
+                                <div class="skill-level javascript"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>React <span>80%</span></p>
+                            <div class="skill-bar">
+                                <div class="skill-level react"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>Node.js <span>75%</span></p>
+                            <div class="skill-bar">
+                                <div class="skill-level node"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="btn">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">My <span>Services</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-search"></i>
+                    <h3>SEO</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">My <span>Portfolio</span></h2>
+            <div class="portfolio-filter">
+                <button class="active" data-filter="all">All</button>
+                <button data-filter="web">Web Design</button>
+                <button data-filter="app">App Development</button>
+                <button data-filter="graphic">Graphic Design</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Web Design Project</h3>
+                        <p>Category: Web Design</p>
+                        <a href="#"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>App Development Project</h3>
+                        <p>Category: App Development</p>
+                        <a href="#"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="graphic">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>Graphic Design Project</h3>
+                        <p>Category: Graphic Design</p>
+                        <a href="#"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 4">
+                    <div class="portfolio-overlay">
+                        <h3>Another Web Design</h3>
+                        <p>Category: Web Design</p>
+                        <a href="#"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 5">
+                    <div class="portfolio-overlay">
+                        <h3>Mobile App Project</h3>
+                        <p>Category: App Development</p>
+                        <a href="#"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="graphic">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 6">
+                    <div class="portfolio-overlay">
+                        <h3>Brand Identity</h3>
+                        <p>Category: Graphic Design</p>
+                        <a href="#"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact <span>Me</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="info-item">
+                        <i class="fas fa-user"></i>
+                        <div>
+                            <h4>Name</h4>
+                            <p>Anwar Hakim Mihad</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>cox's Bazar, Bangladesh</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>amihad58@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Subject">
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.facebook.com/mihaduuuu"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="www.linkedin.com/in/ah-mihad-030785359"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Amiadmaill"><i class="fab fa-github"></i></a>
+            </div>
+            <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
